@@ -1,0 +1,32 @@
+&pftpars   !the value -9999 means the parameter is undefined
+
+ pftpar%name = 
+  "warm broadleaf evergreen",
+  "warm broadleaf deciduous",
+  "temperate broadleaf evergreen",
+  "temperate broadleaf deciduous",
+  "temperate needleleaf evergreen",
+  "cold needleleaf evergreen",
+  "cold needle- and broadleaf deciduous",
+  "sclerophyll/succulent",
+  "warm herbaceous",
+  "cool herbaceous",
+  "cold herbaceous",
+  "hot shrub",
+  "cold shrub"
+!                  TRE    TRD    WTE     TS    CTC    BEC     BS    SCL    WGS   COGR   CLGR    HDS    CDS
+pftpar%tcmin   =  15.5,  15.5,     6,   -15,   -19,   -35, -9999,     5, -9999, -9999, -9999, -9999, -9999
+
+pftpar%tcmax   = -9999, -9999, -9999,  15.5,     5,    -2,     5, -9999, -9999, -9999, -9999, -9999, -9999
+
+pftpar%gdd5min = -9999, -9999, -9999,  1200,   900,   350,   350, -9999, -9999,   500, -9999, -9999, -9999
+
+pftpar%gdd0min = -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999,   100, -9999,   100
+
+pftpar%twmin   = -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999,    22, -9999, -9999,    22, -9999
+
+pftpar%almin   =  0.80,  0.45,  0.65,  0.65,  0.65,  0.75,  0.65,  0.28,  0.18,  0.33,  0.33, -9999, -9999
+
+pftpar%almax   = -9999,  0.95, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999
+
+/
